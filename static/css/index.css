@@ -1,0 +1,89 @@
+.header{
+    background-color: rgb(148, 4, 148);
+}
+.bod{
+    margin-left:0px;
+    margin-right:0px;
+    padding-left:0px;
+    padding-right:0px;
+}
+.nav-link{
+    color:white;
+}
+.nav-link:hover{
+    transition: 0.5s;
+    transform: scale(1.2);
+    text-decoration: underline;
+}
+.logo{
+    height: 40px;
+    width: 50px;  
+    display: inline-block;
+    
+}
+
+.active{
+    color:white;
+}
+a:hover{
+    color:white;
+    font-weight: bold;
+}
+.top{
+    background:linear-gradient(rgb(148, 4, 148),rgb(148, 1, 148));
+    padding-bottom:100px;
+}
+.updates{
+    background-color: white;
+    color: purple;
+    border:none;
+}
+.head{
+    height:400px; 
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    font-size: 80px;
+   
+}
+.white{
+    color:white;
+}
+.title{
+    font-size: 80px;
+}
+.heading{
+    font-weight: bold;
+    font-size:25px;
+}
+.about{
+    border-radius: 10px;
+    border: 1px purple solid;
+    color:purple;    
+}
+.about_txt{
+    font-size:20px;
+}
+
+
+
+
+
+
+.base{
+    background-color:rgb(230, 216, 230);
+}
+i{
+    font-size:160px;
+    color:white;
+}
+
+.panel{
+    
+}
+.go{
+    border:2px green solid;
+}
+.footer{
+    background-color:purple;
+}
