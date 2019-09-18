@@ -65,7 +65,11 @@ h1{
     font-size:20px;
 }
 
-
+.view{
+    color:white;
+    background-color: purple;
+    border:none;
+}
 
 
 
@@ -93,11 +97,12 @@ i{
 }
 
 .topic{
-    background-color: purple;
+    background:linear-gradient(rgb(148, 4, 148),rgb(148, 1, 148));
     
 }
 .gal{
     height: 400px;
     width: 100%;
     border-radius: 20px;
+    size: cover;
 }
