@@ -1,10 +1,11 @@
+<html>
 <head>
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<link rel="stylesheet" type="text/css" href="static/css/index.css">
-<link rel="stylesheet" type="text/css" href="static/css/animate.css">
-<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
- </head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="static/css/index.css">
+    <link rel="stylesheet" type="text/css" href="static/css/animate.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
  <div class="container-fluid bod ">
     <div class="container-fluid header animated slideInLeft shadow">
         <div class="container bar">
@@ -16,7 +17,7 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                     <li class="nav-item ">
-                        <a class="nav-link mx-4 px-4 " href="#">Mission</a>
+                        <a class="nav-link mx-4 px-4 " href="#heading">Mission</a>
                     </li>
                      <li class="nav-item">
                         <a class="nav-link mx-4 px-4 abouts" href="#about">About Us</a>
@@ -25,7 +26,7 @@
                         <a class="nav-link mx-4 px-4" href="#gallery">Gallery</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-4 px-4" href="#">Notice board</a>
+                        <a class="nav-link mx-4 px-4" href="#notice">Notice board</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link mx-4 px-4" href="#follow">Follow Us</a>
@@ -40,7 +41,7 @@
             <div class="row pt-2 pb-1">   
                 <div class="col-12">
                     <div class="">
-                        <div class="heading">The Association Of Professional Women Engineers of Nigeria (APWEN)</div>
+                        <div class="heading" id="heading">The Association Of Professional Women Engineers of Nigeria (APWEN)</div>
                     </div>
                 </div>
             </div>
@@ -101,39 +102,56 @@
                     <img class="img-fluid gal shadow" src="static/images/pic2.jpeg" />
                 </div>
             </div>
-            <div class="row justify-content-center">
-                <button id="status" class="my-2 badge-pill view py-2 "></button>
+            <div class="text-center mx-auto">
+                <button id="status" class="my-2 badge-pill view p-3 ">View More</button>
             </div>
             <div class="row" id="more">
                 <img class="col-12 col-md-4 my-2  img-fluid gal shadow" src="static/images/pic3.jpeg" />           
                 <img class="col-12 col-md-4 my-2 img-fluid gal shadow" src="static/images/pic4.jpeg" />    
                 <img class="col-12 col-md-4 my-2 img-fluid gal shadow" src="static/images/pic5.jpeg" />
             </div>
+            <div class="text-center mx-auto">
+            <button id="less" class="badge-pill view my-2 p-3">View Less</button>
+        </div>
+    </div>
+    <div id="notice" class="container-fluid my-5 heading px-0 mx-0 ">
+        <div class="container-fluid topic">
+            <h3 class="text-center mt-1 py-2 white">Notice board</h3>
+        </div>
+        <div class="container">
+        <div class="panel panel-default">
+            <div class="panel-body pb-5">
+                <h4><i>No new information for now</i></h4>
+            </div>
+        </div>
         </div>
     </div>
 
     <div class="container-fluid footer pb-5" id="follow">
         <div class="container">
-            <h3 class="text-center mx-auto pt-3" id="contact">Contact Us</h3>
+            <h3 class="text-center mx-auto pt-3 white" id="contact">Follow Us</h3>
             <div class="row text-center mt-5"> 
-              <div class="col-12 col-md-3">
+              <div class="col-3 col-md-3">
                   <a href="#"><img class="img-fluid logo shadow" src="static/images/logo.png"/</a>
               </div>             
-              <div class="col-12 col-md-3">
-                  <a href="#"> <i class="fab fa-google" aria-hidden="true"></i></a>
+              <div class="col-3 col-md-3">
+                  <a href="mailto:apwenunilag@gmail.com"> <i class="fab fa-google" aria-hidden="true"></i></a>
               </div>
-              <div class="col-12 col-md-3">
+              <div class="col-3 col-md-3">
                   <a href="https://twitter.com/@apwenunilag"><i class="fab fa-twitter"></i></a>
               </div>
-              <div class="col-12 col-md-3">
+              <div class="col-3 col-md-3">
                   <a href="https://www.instagram.com/apwenunilag/"><i class="fab fa-instagram"></i></a>
               </div>
             </div>
         </div>
+
     </div>
+    
     <script src="static/js/index.js"></script>
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </div>
+</html>

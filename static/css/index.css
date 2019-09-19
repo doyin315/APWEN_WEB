@@ -1,9 +1,17 @@
 .header{
     background-color: rgb(148, 4, 148);
 }
+html{
+    margin: 0;
+    padding: 0;
+}
 .bod{
     margin-left:0px;
     margin-right:0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
     padding-left:0px;
     padding-right:0px;
 }
@@ -38,10 +46,7 @@ a:hover{
     color: purple;
     border:none;
 }
-.head{
-    height:400px; 
-    font-family: 'Open Sans', sans-serif;
-}
+
 h1{
     font-size: 80px;
    
@@ -74,11 +79,13 @@ h1{
 
 
 
-.base{
+.panel-default{
     background-color:rgb(230, 216, 230);
+    padding-bottom: 300px;
+        
 }
 i{
-    font-size:160px;
+    font-size:40px;
     color:white;
 }
 
@@ -105,4 +112,7 @@ i{
     width: 100%;
     border-radius: 20px;
     size: cover;
+}
+button{
+    border:none;
 }
