@@ -124,10 +124,11 @@ button{
 .footer_base{
     background-color:  rgb(73, 72, 72);
 }
-.hidden{
-    opacity: 0;
-}
-.visible{
-    opacity:1;
+.icons{
+    float:right;
 }
 
+.rights{
+    color: black;
+    
+}
