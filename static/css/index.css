@@ -1,5 +1,5 @@
 .header{
-    background-color: rgb(148, 4, 148);
+    background-color: #333333
 }
 html{
     margin: 0;
@@ -23,6 +23,7 @@ html{
     transition: 0.5s;
     transform: scale(1.2);
     text-decoration: underline;
+    color: purple;
 }
 .logo{
     height: 40px;
@@ -39,7 +40,7 @@ a:hover{
     font-weight: bold;
 }
 .top{
-    background:linear-gradient(rgb(148, 4, 148),rgb(148, 1, 148));
+    background-color: #5a5a5a;
     padding-bottom:100px;
 }
 .updates{
@@ -63,9 +64,8 @@ h1{
     font-size:25px;
 }
 .about{
-    border-radius: 10px;
-    border: 1px purple solid;
-    color:purple;    
+    
+    color: black;    
 }
 .about_txt{
     font-size:20px;
@@ -81,7 +81,7 @@ h1{
 
 
 .panel-default{
-    background-color:rgb(230, 216, 230);
+    background-color: #5a5a5a;
     padding-bottom: 300px;
         
 }
@@ -97,14 +97,14 @@ i{
     border:2px green solid;
 }
 .footer{
-    background-color:purple;
+    background-color:#171717;
 }
 
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
-.topic{
+topic{
     background:linear-gradient(rgb(148, 4, 148),rgb(148, 1, 148));
     
 }
@@ -117,3 +117,17 @@ i{
 button{
     border:none;
 }
+.gallery{
+    background-color: #5a5a5a;
+}
+
+.footer_base{
+    background-color:  rgb(73, 72, 72);
+}
+.hidden{
+    opacity: 0;
+}
+.visible{
+    opacity:1;
+}
+
