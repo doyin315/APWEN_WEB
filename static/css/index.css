@@ -41,7 +41,7 @@ a:hover{
 }
 .top{
     background-image:url("../images/logo2.jpg");
-    padding-bottom:160px; 
+    padding-bottom:200px; 
 }
 .updates{
     background-color: white;
@@ -134,4 +134,7 @@ button{
 .rights{
     color: black;
     
+}
+.notice_panel{
+    border-radius: 20px;
 }
