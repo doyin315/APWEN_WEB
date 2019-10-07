@@ -99,7 +99,10 @@ h1{
 
 
 .panel-default{
-    background-color: #5a5a5a;
+    background: url('../images/grey.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     padding-bottom: 300px;
         
 }
@@ -136,11 +139,17 @@ button{
     border:none;
 }
 .gallery{
-    background-color: #5a5a5a;
+    background: url('../images/grey.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .footer_base{
-    background-color:  rgb(73, 72, 72);
+    background: url('../images/grey.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .icons{
     float:right;
