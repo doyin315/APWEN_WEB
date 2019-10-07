@@ -29,7 +29,6 @@ html{
     height: 40px;
     width: 50px;  
     display: inline-block;
-    
 }
 
 .active{
@@ -39,13 +38,29 @@ a:hover{
     color:white;
     font-weight: bold;
 }
+
 .top{
-    background-image:url("../images/logo2.jpg");
+    background-image:url("../images/logo3.jpg");
     padding-bottom:200px; 
-    max-width:100%;
-    max-height:100%;
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
    
 }
+@media only screen and (min-width: 1440px) {
+    .top{
+    background-image:url("../images/logo2.jpg");
+    padding-bottom:200px;   
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    }
+}
+
 .updates{
     background-color: white;
     color: purple;
