@@ -47,16 +47,14 @@ a:hover{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-   
 }
 @media only screen and (min-width: 1440px) {
     .top{
-        background-image:url("../images/logo2.jpg");
+    background-image:url("../images/logo2.jpg");
     padding-bottom:200px; 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-
     }
 }
 
