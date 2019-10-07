@@ -140,8 +140,9 @@ button{
 }
 .gallery{
     background: url('../images/grey.png');
-    background-position: center;
-    background-repeat: no-repeat;
+    background-attachment: fixed;
+   
+    
     
 }
 
