@@ -24,7 +24,7 @@ html{
     transform: scale(1.2);
     text-decoration: underline;
 }
-.logo{
+#logo{
     height: 40px;
     width: 50px;  
     display: inline-block;
@@ -142,8 +142,6 @@ button{
     background: url('../images/grey.png');
     background-attachment: fixed;
    
-    
-    
 }
 
 .footer_base{
@@ -162,4 +160,9 @@ button{
 }
 .notice_panel{
     border-radius: 20px;
+}
+
+.img-fluid{
+    height:700px;
+    border-radius:20px;
 }
