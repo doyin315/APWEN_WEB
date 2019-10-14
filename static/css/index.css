@@ -166,3 +166,12 @@ button{
     height:700px;
     border-radius:20px;
 }
+@media only screen and (max-width: 425px) {
+    .img-fluid{
+        height: 400px;
+  
+    }
+    .top{
+        padding-bottom: 100px;
+    }
+}
