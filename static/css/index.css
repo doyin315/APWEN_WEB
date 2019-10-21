@@ -175,3 +175,7 @@ button{
         padding-bottom: 100px;
     }
 }
+
+#logo{
+    border-radius: 0px;
+}
